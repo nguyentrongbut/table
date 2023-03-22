@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- gg font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="styles.css" />
+
+        <title>Table</title>
+    </head>
+    <body>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" name="" id="">
+                        </th>
+                        <th>Tipo</th>
+                        <th>Cordio</th>
+                        <th>Description</th>
+                        <th>Marca</th>
+                        <th>Client</th>
+                        <th>Active</th>
+                        <th>Cardio</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>
+                            <i class="fa fa-truck"></i>
+                        </td>
+                        <td>PR-005</td>
+                        <td><p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, consequatur.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, consequatur.<p></td>
+                        <td>HP</td>
+                        <td>
+                            <input type="checkbox" class="toggle-input" name="client" id="toggle-client">
+                            <label for="toggle-client" class="toggle-label"></label>
+                        </td>
+                        <td>
+                            <input type="checkbox" class="toggle-input" id="toggle-active" name="active">
+                            <label for="toggle-active" class="toggle-label"></label>
+                        </td>
+                        <td>
+                            <span class="status status--active">Active</span>
+                        </td>
+                        <td>
+                            <div class="action">
+                                <i class="fa fa-edit action-icon"></i>
+                                <i class="fa fa-circle action-icon"></i>
+                                <i class="fa fa-trash action-icon"></i>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
